@@ -521,7 +521,7 @@ int main()
                 if (planesN[i].planeSprite.getPosition().x + (-1) * (planesN[i].planeVelocity * cos((planesN[i].planeTheta - 90) * M_PI / 180)) >= windowSize.x || planesN[i].planeSprite.getPosition().x + (-1) * (planesN[i].planeVelocity * cos((planesN[i].planeTheta - 90) * M_PI / 180)) < 0)
                 {
                     frontBlocked = true;
-                    cout << "You lost" << endl;
+                    //cout << "You lost" << endl;
                     planeNSpriteMovement.x = 0;
                 }
                 else
